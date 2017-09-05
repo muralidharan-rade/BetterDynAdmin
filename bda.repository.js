@@ -2197,4 +2197,8 @@
     BDA_REPOSITORY.executeQuery(domain, xmlText, repository, callback, errCallback);
   };
 
+  $.fn.getBdaRepository = function() {
+    return BDA_REPOSITORY;
+  };
+
 })(jQuery);
