@@ -839,7 +839,6 @@ table.tablesorter tr.alt-row:hover td {
 }
 
 .fullscreen #dashScreen {
-  margin-bottom: 0;
   height: 100%;
   max-height: 100%;
 }
@@ -1279,4 +1278,8 @@ ol.itemDescAttributes {
 
 .showActorXml{
   margin-left: 10px;
+}
+
+.bottom-panel{
+  margin-top: 10px;
 }
